@@ -1,5 +1,5 @@
 # DrIM
-This repository is the official implementation of 'DrIM: Context-Driven Nearest Neighbor Imputation using Language Representation' with PyTorch.
+This repository is the official implementation of 'DrIM: Context-Driven Nearest Neighbor Imputation using Language Representation' with PyTorch (PAKDD 2026).
 
 > **_NOTE:_** This repository supports [WandB](https://wandb.ai/site) MLOps platform!
 
