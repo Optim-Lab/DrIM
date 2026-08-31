@@ -73,3 +73,26 @@ python main.py --dataset <dataset> --missing_type <missing_type> --missing_rate 
 +-- Figure.png
 +-- README.md
 ```
+
+## Citation
+```bibtex
+@inproceedings{10.1007/978-981-92-1462-4_35,
+author = {Lim, Jaesung and An, Seunghwan and Jeon, Jong-June},
+title = {DrIM: Context-Driven Nearest Neighbor Imputation Using Language Representation},
+year = {2026},
+isbn = {978-981-92-1461-7},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-981-92-1462-4_35},
+doi = {10.1007/978-981-92-1462-4_35},
+abstract = {Missing data poses significant challenges for machine learning and deep learning algorithms, which require complete datasets for training. In this paper, we aim to enhance post-imputation performance, measured by imputation utility. We introduce a k-nearest neighbors-based imputation method, DrIM, designed for heterogeneous (mixed-type) tabular datasets. DrIM leverages the representation learning capabilities of language models by transforming the tabular dataset into a text format and replacing the missing entries with [MASK] (or [UNK]) tokens. DrIM incorporates a contrastive learning framework and refines the representations. Moreover, our proposed method is theoretically justified by showing that contrastive learning induces a metric of representation space via density ratio estimation, thereby supporting its use for missing data imputation. To validate our proposed model, we evaluate its performance on missing data imputation across 10 real-world tabular datasets, demonstrating its ability to produce complete datasets with high imputation utility under various missing data scenarios.},
+booktitle = {Advances in Knowledge Discovery and Data Mining: 30th Pacific-Asia Conference on Knowledge Discovery and Data Mining, PAKDD 2026, Hong Kong, China, June 9–12, 2026, Proceedings, Part II},
+pages = {444–457},
+numpages = {14},
+keywords = {Missing data imputation, Nearest neighbor, Language representation, Mutual information, Contrastive learning},
+location = {Hong Kong, China}
+}
+```
+
+## Acknowledgement
+This repository was developed with support from the 서울시립대학교 데이터 사이언스 플러스 차세대 융합인재 양성사업단 - http://dsplus.uos.ac.kr/
